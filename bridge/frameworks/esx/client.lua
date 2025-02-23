@@ -3,7 +3,7 @@ local ESX = exports["es_extended"]:getSharedObject()
 
 ---@return string
 function framework:GetPlayerName()
-    local playerData = ESX.PlayerData
+   
     return  ESX.PlayerData.name
 end
 
