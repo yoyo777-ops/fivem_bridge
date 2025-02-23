@@ -72,7 +72,12 @@ function framework:IsPlayerLoaded()
     return ESX.IsPlayerLoaded()
 end
 
+function framework:IsPlayerUnLoaded()
+    return 
+end
+
 function framework:Progressbar(opts)
+
 end
 
 function framework:SearchInventory(item, count)
@@ -94,6 +99,7 @@ function framework:ShowInventory()
 end
 
 function framework:ShowNotification(opts)
+
 end
 
 function framework:TriggerServerCallback(opts)
